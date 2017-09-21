@@ -66,6 +66,12 @@ a:link, a:visited {
 	color: #777777; 
 }
 
+form {
+	padding: 10px;
+	color: #777777;
+	width: 100%; 
+}
+
 .YourName {
 	background-color: #4aaaa5;
 	padding: 25px 5px 25px 5px;
@@ -85,7 +91,16 @@ a:link, a:visited {
 	margin-right: 22%;
 }
 
+.Link:hover {
+	color:black;
+}
+
 .About {
+	padding: 20px;
+	display: inline-block;
+}
+
+..About {
 	padding: 20px;
 	display: inline-block;
 }
@@ -128,6 +143,39 @@ a:link, a:visited {
 
 .icon {
 	padding: 5px;
+}
+
+.NameForm {
+	
+}
+
+.EmailForm {
+
+}
+
+.MessageForm {
+ 
+}
+
+.SubmitButton {
+	background-color: #4aaaa5;
+	padding: 20px 0px 20px 0px;
+	width: 200px;
+	text-align: center;
+	color: #ffffff;
+	margin-left: 10px;
+}
+
+.SubmitButton:hover {
+	background-color: #24726e;
+}
+
+.ProjectName {
+	background-color: #4aaaa5;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	color: #ffffff;
 }
 
 .clearfix::after {
