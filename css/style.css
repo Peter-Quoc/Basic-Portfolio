@@ -32,14 +32,14 @@ footer {
 	text-align: center;
 	color: white;
 	font-size: 10px;
-	border-top: 10px solid #4aaaa5;
+	border-top: 10px solid #a51515;
 	content: "";
 	display: block;
 	clear: both;
 }
 
 h1 {
-	color: #4aaaa5;
+	color: #8b1b1b;
 	font-family: serif;
 	font-size: 30px;
 	font-weight: bold;
@@ -73,7 +73,7 @@ form {
 }
 
 .YourName {
-	background-color: #4aaaa5;
+	background-color: #a51515;
 	padding: 25px 5px 25px 5px;
 	width: 225px;
 	text-align: center;
@@ -92,7 +92,7 @@ form {
 }
 
 .Link:hover {
-	color:black;
+	background-color: black;
 }
 
 .About {
@@ -100,15 +100,9 @@ form {
 	display: inline-block;
 }
 
-..About {
-	padding: 20px;
-	display: inline-block;
-}
-
 .Portfolio {
 	padding: 20px;
 	display: inline-block;
-
 }
 
 .Contact {
@@ -116,7 +110,7 @@ form {
 	display: inline-block;
 }
 
-.AboutMe {
+.MainSection {
 	border: 1px solid #dddddd;
 	float: left;
 	width: 40%;
@@ -146,19 +140,21 @@ form {
 }
 
 .NameForm {
-	
+	width: 95%;
 }
 
 .EmailForm {
+	width: 95%;
 
 }
 
 .MessageForm {
- 
+ 	width: 95%;
+ 	height: 100px;
 }
 
 .SubmitButton {
-	background-color: #4aaaa5;
+	background-color: #a51515;
 	padding: 20px 0px 20px 0px;
 	width: 200px;
 	text-align: center;
@@ -170,12 +166,30 @@ form {
 	background-color: #24726e;
 }
 
+/*.PortfolioFiles {
+	display: inline-block;
+}*/
+
+.PortfolioImage {
+	margin: 20px;
+	display: inline-block;
+	border: 2px solid #dddddd;
+	height: 200px;
+	width: 250px;
+}
+
 .ProjectName {
-	background-color: #4aaaa5;
+	background-color: #a51515;
 	padding: 15px 0px 15px 0px;
 	width: 250px;
 	text-align: center;
 	color: #ffffff;
+	position: relative;
+	bottom: 75px;
+}
+
+.ProjectName:hover {
+	background-color: #8b1b1b;
 }
 
 .clearfix::after {
